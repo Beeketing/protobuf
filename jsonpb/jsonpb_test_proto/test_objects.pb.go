@@ -3,14 +3,14 @@
 
 package jsonpb
 
-import proto "github.com/golang/protobuf/proto"
+import proto "github.com/Beeketing/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import any "github.com/golang/protobuf/ptypes/any"
-import duration "github.com/golang/protobuf/ptypes/duration"
-import _struct "github.com/golang/protobuf/ptypes/struct"
-import timestamp "github.com/golang/protobuf/ptypes/timestamp"
-import wrappers "github.com/golang/protobuf/ptypes/wrappers"
+import any "github.com/Beeketing/protobuf/ptypes/any"
+import duration "github.com/Beeketing/protobuf/ptypes/duration"
+import _struct "github.com/Beeketing/protobuf/ptypes/struct"
+import timestamp "github.com/Beeketing/protobuf/ptypes/timestamp"
+import wrappers "github.com/Beeketing/protobuf/ptypes/wrappers"
 
 // Reference imports to suppress errors if they are not otherwise used.
 var _ = proto.Marshal

@@ -64,7 +64,7 @@ each source `.proto` file is associated with a single Go package. The
 name and import path for this package is specified with the `go_package`
 proto option:
 
-	option go_package = "github.com/golang/protobuf/ptypes/any";
+	option go_package = "github.com/Beeketing/protobuf/ptypes/any";
 
 The protocol buffer compiler will attempt to derive a package name and
 import path if a `go_package` option is not present, but it is
@@ -172,7 +172,7 @@ To create and play with a Test object from the example package,
 	import (
 		"log"
 
-		"github.com/golang/protobuf/proto"
+		"github.com/Beeketing/protobuf/proto"
 		"path/to/example"
 	)
 

@@ -40,8 +40,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/golang/protobuf/proto"
-	pb "github.com/golang/protobuf/proto/test_proto"
+	"github.com/Beeketing/protobuf/proto"
+	pb "github.com/Beeketing/protobuf/proto/test_proto"
 	"golang.org/x/sync/errgroup"
 )
 

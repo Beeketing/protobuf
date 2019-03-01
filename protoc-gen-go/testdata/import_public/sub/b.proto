@@ -33,7 +33,7 @@ syntax = "proto3";
 
 package goproto.test.import_public.sub;
 
-option go_package = "github.com/golang/protobuf/protoc-gen-go/testdata/import_public/sub";
+option go_package = "github.com/Beeketing/protobuf/protoc-gen-go/testdata/import_public/sub";
 
 message M2 {
 }
